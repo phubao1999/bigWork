@@ -1,0 +1,143 @@
+*{margin:0;padding: 0}
+
+#aaa {
+    position: relative;
+    top: 230px;
+}
+li.nav-item.dropdown {
+    margin-left: 60px;
+    text-transform: uppercase;
+    
+}
+a.dropdown-item {
+    background-color: #fdfeff;
+    
+    border-bottom: 1px solid #212E3A;
+}
+
+li.nav-item.active {
+    margin-left: 60px;
+    text-transform: uppercase;
+    
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #00008b00!important;
+    padding-bottom: 20px;
+}
+
+.menutren {
+    background-color: #8a2be200;
+    transition: 1.5s;
+}
+.menutren.nentrang{
+    background-color: white;
+    color: #666666!important;
+    border-bottom: 1.5px solid #80808096;
+
+}
+.logo {
+    background-color: #EC6952;
+    color: white;
+    font-weight: bold;
+    padding: 30px 23px;
+    margin-left: 50px;
+    height: 68px;
+    text-align: center;
+    transition: 1.5s;
+}
+.logo.chucam{
+    background: white;
+    color: #EC6952;
+    font-size: 15px;
+}
+a.navbar-brand:hover{
+    color: #212E3A;
+}
+.nuttren{
+    font-weight: bold!important;
+    color: white!important;
+    background-color: #EC6952!important;
+}
+.nuttren:hover{
+    padding: 10px;
+    transition: 1s;
+}
+.nutduoi{
+    background-color: #EC6952!important;
+    font-weight: 500!important;
+    width: 150px;
+}
+#icontren{
+    color: #e4e4dc;
+}
+.carousel-caption{
+    margin-bottom: 150px;
+}
+.comment .row .col-sm-8{
+    background-color: #F5F5F5;
+}
+.slideduoi{
+    background-color: #F5F5F5;
+}
+.lastimg{
+    background-image: url('img/4.jpg');
+    height: 350px;
+    background-size: cover;         
+}
+.lastimg .btn{
+    background-color: #EC6952!important;
+    border: #EC6952;
+    font-weight: 600;
+    width: 200px;
+}
+.noidung{
+    color: white;
+    padding-top: 100px;
+}
+.footter{
+    background-color: #253340;
+    margin-top: -50px;
+    color: #B3B2B2;
+}
+.footter .phai ul li{
+    padding-top: 20px;
+    font-size: 30px;
+    padding-right: 20px;
+}
+.footter .trai{
+    padding-top: 20px;
+}
+.footter .duoi .btn{
+    width: 250px;
+}
+.footter .duoi p{
+    padding: -40px!important;
+}
+.end{
+    background-color: #1C2630;
+}
+.nutlen{
+    opacity: 0;
+    transition: 1.5s;
+}
+.nutlen.hienthi{
+    opacity: 1;
+}
+.phai ul li i:hover {
+    color: red;
+}
+@media only screen and (max-width:600px){
+    a.navbar-brand{
+        position: relative;
+        top: 0px;
+        left: 35%;
+        width: 150px;
+    }
+    .menutren{
+        background-color: #212E3A;
+    }
+    .navbar-toggler-icon{
+        margin-top: -100px;
+    }
+    
+}
