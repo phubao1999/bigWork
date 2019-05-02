@@ -25,9 +25,7 @@ $(function(){
     });
     $('.nutlen.hienthi').click(function(event){
         event.preventDefault();
-        $('html, body').animate({'scrollTop':0});
+        $('html, body').animate({'scrollTop':0}, 1000);
     });
 });
-$(document).ready(function () {
-    console.log('chạy chưa bạn ơi');
-});
+
