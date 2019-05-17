@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        #top {
+            background-image: url('/imgs/cover.jpg');
+            height: 80vh;
+            max-height: 460px;
+        }
+
+        .tt img {
+            width: 50px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-200 font-mono lending-normal">
+    <div class="menu">
+        <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+              <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+              <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span>
+            </div>
+            <div class="block lg:hidden">
+              <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+              </button>
+            </div>
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto sm:invisible md:invisible sm:h-0 md:h-0 lg:visible lg:h-auto xl:visible xl:h-auto">
+              <div class="text-sm lg:flex-grow">
+                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                  Docs
+                </a>
+                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                  Examples
+                </a>
+                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                  Blog
+                </a>
+              </div>
+              <div>
+                <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+              </div>
+            </div>
+          </nav>
+    </div>  <!--End Menu-->
+    <div id="top" class="bg-cover w-full">
+        <div class="container flex flex-col text-center pt-16">
+            <p class="text-white text-3xl md:text-5xl mx-auto">
+                👻 Ghostwind CSS
+            </p>
+            <p class="text-xl md:text-2xl text-gray-500 mx-auto pl-5">Welcome To My blog</p>
+        </div>
+    </div>  <!--End Top-->
+    <div id="content" class="mx-auto mt-10">
+        <div class="_1 lg:flex justify-center md:flex mb-16">
+            <div class=" bg-cover h-auto rounded-t bg-cover sm:w-full lg:w-2/3 xl:w-2/3 md:w-2/3 xl:ml-20">
+                <img src="/imgs/1.jpg" alt="" class="w-auto">
+            </div>      <!--1 tin-->
+            <div class="w-full md:w-1/3 mx-auto sm:w-full text-center rounded bg-white leading-loose xl:mr-20">
+                <p class="pt-10">GETTING STARTED</p>
+                <h3>👋 Welcome fellow Tailwind CSS and Ghost fan</h3>
+                <p class="pb-10">
+                    This starter template is an attempt to replicate the default Ghost theme "Casper" using Tailwind CSS and vanilla Javascript.
+                                                        
+                </p>
+                <img src="/imgs/qc.png" alt="" class="mx-auto pb-10">
+                <div class="tt">
+                    <img src="/imgs/ava.jpg" alt="" class="mx-auto">
+                    <p>1 MIN READ</p>
+                </div>
+            </div>      <!--1 Tin-->
+        </div>      <!--Content 1-->
+        <div class="_2 mt-32 lg:flex xl:flex md:flex mb-16">
+            <div class="sm:w-full md:w-1/3 lg:w-1/3 xl:w-full mx-auto lg:ml-20 rounded bg-white md:mr-4 sm:mr-0">
+                <img src="/imgs/2.jpg" alt="">
+                <i class="px-6">GETTING STARTED</i>
+                <div class="font-bold text-xl text-gray-700 px-6">Lorem ipsum dolor sit amet.</div>
+                <p class="pb-10 text-gray-600 px-6" style="border-bottom: 1px solid #80808047">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
+                </p>
+                <div class="tt pt-4">
+                    <img src="/imgs/ava.jpg" alt="" class="mx-auto">
+                    <p>1 MIN READ</p>
+                </div>
+            </div>  <!--1 Tin-->
+            <div class="sm:w-full md:w-1/3 lg:w-1/3 xl:w-full mx-auto md:mr-4 rounded bg-white sm:mr-0">
+                <img src="/imgs/2.jpg" alt="">
+                <i class="px-6">GETTING STARTED</i>
+                <div class="font-bold text-xl text-gray-700 px-6">Lorem ipsum dolor sit amet.</div>
+                <p class="pb-10 text-gray-600 px-6" style="border-bottom: 1px solid #80808047">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
+                </p>
+                <div class="tt pt-4">
+                    <img src="/imgs/ava.jpg" alt="" class="mx-auto">
+                    <p>1 MIN READ</p>
+                </div>
+            </div>  <!--1 Tin-->
+            <div class="sm:w-full md:w-1/3 lg:w-1/3 xl:w-full mx-auto lg:mr-20 rounded bg-white sm:mr-0">
+                <img src="/imgs/2.jpg" alt="">
+                <i class="px-6">GETTING STARTED</i>
+                <div class="font-bold text-xl text-gray-700 px-6">Lorem ipsum dolor sit amet.</div>
+                <p class="pb-10 text-gray-600 px-6" style="border-bottom: 1px solid #80808047">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
+                </p>
+                <div class="tt pt-4">
+                    <img src="/imgs/ava.jpg" alt="" class="mx-auto">
+                    <p>1 MIN READ</p>
+                </div>
+            </div>  <!--1 Tin-->
+        </div>      <!--Content 2-->
+        <div class="_3 md:flex mb-16 xl:flex lg:flex">
+            <div class="sm:w-full md:w-1/2 md:ml-20 rounded bg-white md:mr-4 md:w-1/2 lg:w-1/2 xl:w-1/2 mx-auto">
+                <img src="/imgs/3.jpg" alt="">
+                <p class="pt-5">GETTING STARTED</p>
+                <h3>👋 Welcome fellow Tailwind CSS and Ghost fan</h3>
+                <p class="pb-10">
+                    This starter template is an attempt to replicate the default Ghost theme "Casper" using Tailwind CSS and vanilla Javascript.                                
+                </p>
+            </div>
+            <div class="sm:w-full md:w-1/2 md:mr-20 rounded bg-white md:w-1/2 lg:w-1/2 xl:w-1/2 sm:mr-0">
+                <img src="/imgs/3.jpg" alt="">
+                <p class="pt-5">GETTING STARTED</p>
+                <h3>👋 Welcome fellow Tailwind CSS and Ghost fan</h3>
+                <p class="pb-10">
+                    This starter template is an attempt to replicate the default Ghost theme "Casper" using Tailwind CSS and vanilla Javascript.                                
+                </p>
+            </div>
+        </div>      <!--Content 3-->
+        <div class="_4 md:flex mb-16">
+            <div class="sm:w-full md:w-2/3 lg:w-2/3 xl:w-2/3 md:ml-20 md:mr-5 rounded bg-white">
+                <img src="/imgs/4.jpg" alt="">
+                <p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
+                <div class="w-full font-bold text-xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
+                <p class="text-gray-800 font-serif text-base px-6 mb-5">
+                    Lorem ipsum eu nunc commodo posuere et sit amet ligula. 
+                </p>
+            </div>
+            <div class="sm:w-full md:w-1/3 lg:w-1/3 xl:w-1/3 md:mr-20 rounded bg-white">
+                <img src="/imgs/5.jpg" alt="">
+                <p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
+                <div class="w-full font-bold text-xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
+                <p class="text-gray-800 font-serif text-base px-6 mb-5">
+                    Lorem ipsum eu nunc commodo posuere et sit amet ligula. 
+                </p>
+            </div>
+        </div>      <!--End Content 4-->
+        <div class="_5 flex flex-col ml-20 mr-20 mb-16">
+            <div class="w-full rounded bg-teal-300 flex flex-col">
+                <h2 class="font-bold break-normal text-2xl md:text-4xl mx-auto pt-5">Subscribe to Ghostwind CSS</h2>
+                <h3 class="font-bold break-normal font-normal text-gray-600 text-base md:text-xl mx-auto">Get the latest posts delivered right to your inbox</h3>
+                <div class="w-full text-center pt-4">
+                    <form action="#">
+                        <div class="max-w-xl mx-auto p-1 pr-0 flex flex-wrap items-center">
+                            <input type="email" placeholder="Your Email" class="max-w-xl mx-auto p-1 pr-0 flex flex-wrap items-center">
+                            <button class="flex-1 mt-4 md:mt-0 block md:inline-block appearance-none bg-teal-500 text-white text-base font-semibold tracking-wider uppercase py-4 rounded shadow hover:bg-teal-400" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>      <!--End Content 5-->
+    </div>  <!--End Content-->
+    <div id="footter">
+
+    </div>
+</body>
+
+</html>
