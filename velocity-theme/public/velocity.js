@@ -23,9 +23,10 @@ $(function(){
             $('.nutlen').removeClass('hienthi');
         };
     });
-    $('.nutlen.hienthi').click(function(event){
+    $('.nutlen').click(function(event){
         event.preventDefault();
         $('html, body').animate({'scrollTop':0}, 1000);
+        console.log('abv');
     });
 });
 
