@@ -7,5 +7,4 @@ $(document).ready(function () {
             $('.menutren').removeClass('abc');
         }
     });
-    
 });

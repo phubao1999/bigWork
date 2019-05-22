@@ -95,10 +95,51 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top.abc {
     }
 }   
 
+.contact a{
+    color: white;
+    font-size: 14px;
+}
+
+.contact a:hover {
+    color: #C84600;
+    text-decoration: none;
+}
+
+.list2 li {
+    cursor: pointer;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.list2 li:hover {
+    color: #C84600;
+}
+
+.contentLeft a {
+    color: white;
+}
+
+.contentLeft a:hover {
+    color: #C84600;
+    text-decoration: none;
+}
+
+.contentRight {
+    color: white;
+    cursor: pointer;
+}
+
+.contentRight span:hover  {
+    color: #C84600;
+}
+
 @media only screen and (max-width: 992px){
     .respon {
         background-color: #dadada;
         padding: 10px 12px;
+    }
+    .contentLeft {
+        width: 60%;
     }
 }
 
