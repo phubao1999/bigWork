@@ -17,6 +17,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top.abc {
     padding: 0px;
     height: 55px;
+    background: #616161!important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
+    background-color: #61616138!important;
 }
 
 .point {
@@ -158,6 +163,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top.abc {
     opacity: 1;
 }
 
+div#googleMap {
+    margin-left: -15px;
+}
+
 @media only screen and (max-width: 992px){
     .respon {
         background-color: #dadada;
@@ -169,6 +178,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top.abc {
     ul.navbar-nav.respon {
         margin-top: -10px;
     }
+    button.navbar-toggler.collapsed {
+        margin-top: -15px;
+    }
+
 }
 
 @media only screen and (max-width: 1200px){

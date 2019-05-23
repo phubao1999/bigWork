@@ -9,11 +9,6 @@ $(document).ready(function () {
             $('.nutlentren').removeClass('hienra');
         }
     });
-    // console.log($('.aboutUs').offset().top); //512.390625
-    // console.log($('.dichvu').offset().top); //1790.390625
-    // console.log($('.ourProject').offset().top); //2590.390625
-    // console.log($('.bangGia').offset().top);    //3728.265625
-    // console.log($('.lienHe').offset().top); // 4879.9375
     $('.menutren ul li:nth-child(1) a').on('click', function(event){
         event.preventDefault();
         $('html, body').animate({
@@ -23,34 +18,40 @@ $(document).ready(function () {
     $('.menutren ul li:nth-child(2) a').on('click', function(event){
         event.preventDefault();
         $('html, body').animate({
-            scrollTop: 735
+            scrollTop: $('.aboutUs').offset().top - 95
         }, 1000);
     })
     $('.menutren ul li:nth-child(3) a').on('click', function(event){
         event.preventDefault();
         $('html, body').animate({
-            scrollTop: 2060
+            scrollTop: $('.dichvu').offset().top - 55
         }, 1000);
     })
     $('.menutren ul li:nth-child(4) a').on('click', function(event){
         event.preventDefault();
         $('html, body').animate({
-            scrollTop: 2870
+            scrollTop: $('.ourProject').offset().top - 55
         }, 1000);
     })
     $('.menutren ul li:nth-child(5) a').on('click', function(event){
         event.preventDefault();
         $('html, body').animate({
-            scrollTop: 3815
+            scrollTop: $('.bounus').offset().top - 55
         }, 1000);
     })
     $('.menutren ul li:nth-child(6) a').on('click', function(event){
         event.preventDefault();
         $('html, body').animate({
-            scrollTop: 5150
+            scrollTop: $('.lienHe').offset().top - 55
         }, 1000);
     })
     $('.nutlentren').on('click', function(event){
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000);
+    })
+    $('nav h1').on('click', function(event){
         event.preventDefault();
         $('html, body').animate({
             scrollTop: 0
