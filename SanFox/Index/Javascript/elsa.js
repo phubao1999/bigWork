@@ -36,7 +36,7 @@ $(document).ready(function () {
     $('.menutren ul li:nth-child(5) a').on('click', function(event){
         event.preventDefault();
         $('html, body').animate({
-            scrollTop: $('.bounus').offset().top - 55
+            scrollTop: $('.bangGia').offset().top - 75  
         }, 1000);
     })
     $('.menutren ul li:nth-child(6) a').on('click', function(event){

@@ -3,8 +3,12 @@
     padding: 0;
 }
 
+li.nav-item.pr-3 {
+    text-align: center;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Alegreya', serif;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
@@ -27,6 +31,21 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
 
 .point {
     cursor: pointer;
+}
+
+.nut:hover a{
+    color: white;
+    font-weight: bold;
+}
+
+._1noidung:hover .tren {
+    background-color: #FE6B1D!important;
+    transition: 0.5s;
+}
+
+._1noidung:hover {
+    transform: scale(1.18);
+    transition: 0.5s;
 }
 
 .point .fas:hover {
@@ -163,10 +182,15 @@ div#googleMap {
     background: #C84600!important;
 }
 
+.tieude {
+    border-bottom: 3px solid #C84600;
+    padding-bottom: 10px;
+}
+
 @media only screen and (max-width: 992px){
     .respon {
-        background-color: #a6a6a6;
-        padding: 10px 170px;
+        background-color: #3f3f3f;
+        padding: 10px 140px;
         margin-top: -25px;
     }
     a.nav-link{
@@ -174,22 +198,27 @@ div#googleMap {
     }
     a.nav-link.active {
         color: white!important;
+        font-weight: 600;
     }
+
+    a.nav-link
     .contentLeft {
-        width: 60%;
+        width: 100%;
     }
     nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
         background-color: gray!important;
-        height: 60px;
+        height: 70px;
         display: flex;
         flex-direction: row-reverse;
     }
     a.navbar-brand {
-        margin-top: -10px;
+        margin-top: -17px;
         display: block;
     }
+    
     button.navbar-toggler{
-        margin-bottom: 30px;
+        margin-top: -35px;
+        margin-right: 70px;
     }
     div#googleMap {
         margin-left: 3px!important;
@@ -197,10 +226,3 @@ div#googleMap {
 
 }
 
-@media only screen and (max-width: 1200px){
-
-}
-
-@media only screen and (min-width: 1200px){
-    
-}
