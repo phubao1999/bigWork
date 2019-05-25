@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
+    display: flex;
+    flex-direction: row-reverse;
+    transition: 1s;
+    height: 100px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top.abc {
+    padding: 0px;
+    height: 55px;
+}
+
+.point {
+    cursor: pointer;
+}
+
+.point .fas:hover {
+    color: #C84600;
+}
+
+.hero-header .text.text-center.m-auto {
+    padding-top: 50vh;
+    color: white;
+}
+
+.menucon ul li {
+    list-style-type: none;
+}
+
+.hero-header {
+    background-image: url(../img/header-bg.jpg);
+    height: 120vh;
+    background-size: cover;
+}
+
+.hero-header h3 {
+    font-size: 40px;
+}
+
+.hero-header h1 {
+    font-size: 70px;
+}
+
+._7 .effect img {
+    position: relative;
+    overflow: hidden;
+}
+
+.backround-opacity:hover {
+    opacity: 1;
+}
+
+.backround-opacity {
+    background-color: #0000008a;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;
+}
+
+.menusapxep ul li {
+    cursor: pointer;
+}
+
+.effect2 img{
+    position: relative;
+}
+
+.ok {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.ok:hover {
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 768px){
+    .hero-header h1{
+        font-size: 50px;
+    }   
+    .hero-header h3 {
+        font-size: 30px;
+    }
+    .respon {
+        background-color: #dadada;
+        padding: 10px 12px;
+    }
+}   
+
+.contact a{
+    color: white;
+    font-size: 14px;
+}
+
+.contact a:hover {
+    color: #C84600;
+    text-decoration: none;
+}
+
+.list2 li {
+    cursor: pointer;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.list2 li:hover {
+    color: #C84600;
+}
+
+.contentLeft a {
+    color: white;
+}
+
+.contentLeft a:hover {
+    color: #C84600;
+    text-decoration: none;
+}
+
+.contentRight {
+    color: white;
+    cursor: pointer;
+}
+
+.contentRight span:hover  {
+    color: #C84600;
+}
+
+
+@media only screen and (max-width: 992px){
+    .respon {
+        background-color: #dadada;
+        padding: 10px 12px;
+    }
+    .contentLeft {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (min-width: 1200px){
+    
+}

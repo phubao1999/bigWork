@@ -36,6 +36,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
 .nut:hover a{
     color: white;
     font-weight: bold;
+    border: none!important;
 }
 
 ._1noidung:hover .tren {
@@ -166,6 +167,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
     z-index: 9999;
 }
 
+
 .nutlentren.hienra {
     opacity: 1;
 }
@@ -179,7 +181,7 @@ div#googleMap {
 }
 
 .btn:hover {
-    background: #C84600!important;
+    background: #FF5800!important;
 }
 
 .tieude {
@@ -188,10 +190,26 @@ div#googleMap {
 }
 
 @media only screen and (max-width: 992px){
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+  
+    .ttheader{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .ttheader h3 {
+        margin-top: -50px!important;
+    }
+    .ttheader h1 {
+        font-size: 40px;
+    }
     .respon {
         background-color: #3f3f3f;
-        padding: 10px 140px;
         margin-top: -25px;
+        width: 100vh;
     }
     a.nav-link{
         border-bottom: 1px solid white;
