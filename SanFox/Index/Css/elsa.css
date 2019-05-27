@@ -65,11 +65,12 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
     list-style-type: none;
 }
 
-.hero-header {
+/* .hero-header {
     background-image: url(../img/header-bg.jpg);
     height: 120vh;
     background-size: cover;
-}
+} */
+
 
 .hero-header h3 {
     font-size: 40px;
@@ -196,17 +197,26 @@ div#googleMap {
     a.navbar-brand {
         padding-top: 12px;
     }
-  
+    header._1.hero-header {
+        margin-top: 70px;
+    }
+
     .ttheader{
         font-size: 18px;
         line-height: 20px;
     }
     .ttheader h3 {
-        margin-top: -50px!important;
+        font-size: 20px;
     }
     .ttheader h1 {
-        font-size: 40px;
+        font-size: 25px;
     }
+
+    .ttheader .btn{
+        margin-bottom: 0px!important;
+        padding: 5px;
+    }
+
     .respon {
         background-color: #3f3f3f;
         margin-top: -25px;
@@ -247,16 +257,23 @@ div#googleMap {
     a.navbar-brand {
         padding-top: 12px;
     }
-  
+    header._1.hero-header {
+        margin-top: 70px;
+    }
     .ttheader{
         font-size: 18px;
         line-height: 20px;
     }
     .ttheader h3 {
-        margin-top: -50px!important;
+        font-size: 20px;
     }
     .ttheader h1 {
-        font-size: 40px;
+        font-size: 25px;
+    }
+
+    .ttheader .btn{
+        margin-bottom: 0px!important;
+        padding: 5px;
     }
     .respon {
         background-color: #3f3f3f;
