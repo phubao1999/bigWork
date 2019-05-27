@@ -189,7 +189,7 @@ div#googleMap {
     padding-bottom: 10px;
 }
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 640px){
     nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
         display: flex;
         flex-direction: row;
@@ -237,10 +237,64 @@ div#googleMap {
     button.navbar-toggler{
         margin-top: -35px;
         margin-right: 70px;
+        background: wheat;
     }
     div#googleMap {
         margin-left: 3px!important;
     }
+}
+@media only screen and (max-width: 992px){
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+  
+    .ttheader{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .ttheader h3 {
+        margin-top: -50px!important;
+    }
+    .ttheader h1 {
+        font-size: 40px;
+    }
+    .respon {
+        background-color: #3f3f3f;
+        margin-top: -25px;
+        width: 100vh;
+    }
+    a.nav-link{
+        border-bottom: 1px solid white;
+    }
+    a.nav-link.active {
+        color: white!important;
+        font-weight: 600;
+    }
 
+    a.nav-link
+    .contentLeft {
+        width: 100%;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
+        background-color: gray!important;
+        height: 70px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    a.navbar-brand {
+        margin-top: -17px;
+        display: block;
+    }
+    
+    button.navbar-toggler{
+        margin-top: -35px;
+        background: wheat;
+        float: left!important;
+    }
+    div#googleMap {
+        margin-left: 3px!important;
+    }
 }
 
