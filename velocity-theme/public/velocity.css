@@ -126,18 +126,8 @@ a.navbar-brand:hover{
 .phai ul li i:hover {
     color: red;
 }
-@media only screen and (max-width:600px){
-    a.navbar-brand{
-        position: relative;
-        top: 0px;
-        left: 35%;
-        width: 150px;
+@media query and (max-width: 600px){
+    button.navbar-toggler.collapsed {
+        background: wheat!important;
     }
-    .menutren{
-        background-color: #212E3A;
-    }
-    .navbar-toggler-icon{
-        margin-top: -100px;
-    }
-    
 }
