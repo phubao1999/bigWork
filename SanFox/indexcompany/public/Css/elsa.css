@@ -8,7 +8,10 @@ li.nav-item.pr-3 {
 }
 
 body {
-    font-family: 'Alegreya', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a.navbar-brand {
+    padding-top: 25px;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
@@ -189,11 +192,9 @@ div#googleMap {
     padding-bottom: 10px;
 }
 
-@media only screen and (max-width: 640px){
-    nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+@media only screen and (max-width: 600px){
+    a.navbar-brand {
+        padding-top: 12px;
     }
   
     .ttheader{
@@ -231,11 +232,10 @@ div#googleMap {
     }
     a.navbar-brand {
         margin-top: -17px;
-        display: block;
     }
     
     button.navbar-toggler{
-        margin-top: -35px;
+        margin-top: -30px!important;
         margin-right: 70px;
         background: wheat;
     }
@@ -243,11 +243,9 @@ div#googleMap {
         margin-left: 3px!important;
     }
 }
-@media only screen and (max-width: 992px){
-    nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+@media screen and (min-width: 600px) and (max-width: 992px){
+    a.navbar-brand {
+        padding-top: 12px;
     }
   
     .ttheader{
@@ -285,16 +283,14 @@ div#googleMap {
     }
     a.navbar-brand {
         margin-top: -17px;
-        display: block;
     }
     
     button.navbar-toggler{
-        margin-top: -35px;
+        margin-top: -25px!important;
+        margin-right: 70px;
         background: wheat;
-        float: left!important;
     }
     div#googleMap {
         margin-left: 3px!important;
     }
 }
-
