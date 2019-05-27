@@ -210,10 +210,11 @@ div#googleMap {
     }
     .ttheader h1 {
         font-size: 25px;
+        padding-bottom: 10px!important;
     }
 
     .ttheader .btn{
-        margin-bottom: 0px!important;
+        margin-bottom: 10px!important;
         padding: 5px;
     }
 
@@ -265,14 +266,14 @@ div#googleMap {
         line-height: 20px;
     }
     .ttheader h3 {
-        font-size: 20px;
+        font-size: 25px;
     }
     .ttheader h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .ttheader .btn{
-        margin-bottom: 0px!important;
+        margin-bottom: 20px!important;
         padding: 5px;
     }
     .respon {
