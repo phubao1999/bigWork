@@ -152,6 +152,12 @@ img.nholai {
 }
 /* Resonsive Design */
 @media only screen and (max-width: 600px){
+    .logo_responsive img {
+        display: block!important;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
     i.fas.fa-bars {
         font-size: 30px;
         margin-top: 5px;
@@ -220,6 +226,13 @@ img.nholai {
         visibility: visible;
         z-index: 9999;
     }  
+    .logo_responsive img {
+        display: block!important;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 115px!important;
+    }
     .quote {
         height: 60vh;
     }   

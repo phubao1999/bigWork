@@ -15,6 +15,43 @@ $(document).ready(function () {
            $('._1').removeClass('nholai2');
         }
     });
+
+    $(window).scroll(function(){
+        if($('html, body').scrollTop() > $('.gioithieu').offset().top - 80){
+            $('.menu ul li:nth-child(2) a').addClass('biendoi');
+        } else {
+            $('.menu ul li:nth-child(2) a').removeClass('biendoi');
+        }
+    })
+    $(window).scroll(function(){
+        if($('html, body').scrollTop() > $('.dichvu').offset().top - 80){
+            $('.menu ul li:nth-child(3) a').addClass('biendoi');
+        } else {
+            $('.menu ul li:nth-child(3) a').removeClass('biendoi');
+        }
+    })
+    $(window).scroll(function(){
+        if($('html, body').scrollTop()> $('.banggia').offset().top - 80){
+            $('.menu ul li:nth-child(4) a').addClass('biendoi');
+        } else {
+            $('.menu ul li:nth-child(4) a').removeClass('biendoi');
+        }
+    })
+    $(window).scroll(function(){
+        if($('html, body').scrollTop()> $('.tintuc').offset().top - 80){
+            $('.menu ul li:nth-child(5) a').addClass('biendoi');
+        } else {
+            $('.menu ul li:nth-child(5) a').removeClass('biendoi');
+        }
+    })
+    $(window).scroll(function(){
+        if($('html, body').scrollTop()> $('.lienhe').offset().top - 80){
+            $('.menu ul li:nth-child(6) a').addClass('biendoi');
+        } else {
+            $('.menu ul li:nth-child(6) a').removeClass('biendoi');
+        }
+    })
+
     $('.nutlentren').click(function (e) { 
         e.preventDefault();
         $('html, body').animate({'scrollTop':0}, 1000);
@@ -26,21 +63,18 @@ $(document).ready(function () {
     });
     $('.menu ul li:nth-child(2) a').click(function (e) { 
         e.preventDefault();        
-        $(this).toggleClass('biendoi');
         $('html, body').animate({
             scrollTop: $('.gioithieu').offset().top - 80
         }, 1000);
     });
     $('.menu ul li:nth-child(3) a').click(function (e) { 
         e.preventDefault();        
-        $(this).toggleClass('biendoi');
         $('html, body').animate({
             scrollTop: $('.dichvu').offset().top - 80
         }, 1000);
     });
     $('.menu ul li:nth-child(4) a').click(function (e) { 
         e.preventDefault();        
-        $(this).toggleClass('biendoi');
         $('html, body').animate({
             scrollTop: $('.banggia').offset().top - 80
         }, 1000);
