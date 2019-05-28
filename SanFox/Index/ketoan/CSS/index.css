@@ -127,7 +127,7 @@ img.nholai {
 
 .quote .text {
     text-align: center;
-    padding-top: 10vh;
+    padding-top: 0vh;
 }
 
 .tieude {
@@ -171,7 +171,7 @@ img.nholai {
     } 
     .quote .text {
         text-align: center;
-        padding-top: 15vh;
+        padding-top: 0vh!important;
     }
     .menu{
         background: #feca57!important;
@@ -225,7 +225,7 @@ img.nholai {
     }   
     .quote .text {
         text-align: center;
-        padding-top: 15vh;
+        padding-top: 5vh!important;
     }
     .menu{
         background: #feca57!important;
