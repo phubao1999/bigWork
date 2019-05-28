@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+._1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #8395a747;
+    color: white;
+    transition: 0.5s;
+}
+
+._1.nholai2 {
+    background: #10ac84;
+}
+
+.btn {
+    background: #1dd1a1;
+    transition: 0.2;
+    color: white;
+}
+
+.btn:hover{
+    background: #10ac84!important;
+    color: white!important;
+}
+
+._1noidung{
+    transition: 0.4s;
+}
+
+._1noidung:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+._1noidung:hover .tren {
+    background-color: #10ac84!important;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+i.fas.fa-bars{
+    visibility: hidden;
+}
+i.fas.fa-play-circle:hover {
+    color: #10ac84;
+    transition: 0.3s;
+}
+
+.menu ul li:hover a{
+    color: #feca57!important;
+    transition: 0.2;
+    text-decoration: none;
+}
+
+a.biendoi {background: #5f27cd;padding:40px 5px;transition: 0.2s;color: #f5f6fa!important}
+
+
+.menu ul li {
+    cursor: pointer;
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.menu .logo {
+    padding: 5px;
+}
+
+.hero-banner h3 {
+    color: #feca57;
+}
+.hero-banner h1 {
+    color: #feca57;
+}
+
+.phai i {
+    font-size: 35px;
+    transition: 0.4s;
+}
+
+img.nholai {
+    width: 100px!important;
+    transition: 0.5s;
+}
+
+.nutlentren {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.nutlentren.hienra {
+    opacity: 1;
+    visibility: visible;
+}
+
+.phai i:hover {
+    color: #feca57;
+}
+
+.hero-banner img.d-block.w-100.img-thumbnail {
+    height: 100vh;
+}
+
+.gioithieu {
+    color: #222f3e;
+}
+
+.quote {
+    background-image: url(../img/quote_backgroundptsblur.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    color: white;
+}
+
+.quote .text {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.tieude {
+    color: #10ac84;
+    margin: auto;
+}
+.tieude h3 {
+    margin-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 700;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+.tieude h3:hover {
+   color: #1dd1a1;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 25px;
+}
+/* Resonsive Design */
+@media only screen and (max-width: 600px){
+    i.fas.fa-bars {
+        font-size: 30px;
+        margin-top: 5px;
+        margin-left: 15px; 
+        padding: 5px;
+        border: 1px solid gray;
+        background: #10ac84;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        visibility: visible;
+        z-index: 9999;
+    }   
+    .quote {
+        height: 60vh;
+    } 
+    .quote .text {
+        text-align: center;
+        padding-top: 15vh;
+    }
+    .menu{
+        background: #feca57!important;
+        transform: translateX(-700px);
+        transition: 1s;
+        width: 100%; 
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+    .menu ul {
+        line-height: 80px;
+        text-align: center;
+    }
+    .menu.leftMove{
+        transform: translateX(0px);
+    }
+    .menu ul li {
+        display: block;
+        color: #fff!important;
+    }
+    .menu ul li a {
+        color: black!important
+    }
+    .menu ul li a:hover {
+        color: #10ac84!important;
+    }
+    .logo {
+        display: none;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 992px){
+    i.fas.fa-bars {
+        font-size: 40px;
+        margin-top: 5px;
+        margin-left: 15px; 
+        padding: 5px;
+        border: 1px solid gray;
+        background: #10ac84;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        visibility: visible;
+        z-index: 9999;
+    }  
+    .quote {
+        height: 60vh;
+    }   
+    .quote .text {
+        text-align: center;
+        padding-top: 15vh;
+    }
+    .menu{
+        background: #feca57!important;
+        transform: translateX(-1000px);
+        transition: 1s;
+        width: 100%; 
+        height: 100vh;
+        position: fixed;
+        z-index: 9998;
+        top: 0;
+        left: 0;
+    }
+    .menu ul {
+        line-height: 90px;
+        text-align: center;
+    }
+    .menu.leftMove{
+        transform: translateX(0px);
+    }
+    .menu ul li {
+        display: block;
+        color: #222f3e!important;
+    }
+    .menu ul li a {
+        color: black!important
+    }
+    .menu ul li a:hover {
+        color: #10ac84!important;
+    }
+    .logo {
+        display: none;
+    }
+}
