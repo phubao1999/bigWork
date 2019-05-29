@@ -9,564 +9,98 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,700,700i&display=swap&subset=vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/index.css">
 </head>
 
 <body>
     <div class="_1 container-fluid">
-        <div class="menu">
+        <div class="menu text-dark fixed-top bg-light">
             <div class="logo">
-                <img src="./img/logo_ketoanpsd2.png" alt="" style="width: 150px; height: auto; transition: 0.5s">
+                <img src="./img/logo_ketoanpsd2.png" alt="" width="200px">
             </div>
-            <ul class="text-center ndmenu" style="list-style-type: none">
-                <li style="font-weight: 500; color: #feca57"><a href="" style="color: #c8d6e5; transition: 0.3s">Trang Chủ</a></li>
-                <li style="font-weight: 400"><a href="" style="color: #c8d6e5; transition: 0.3s">Giới Thiệu</a></li>
-                <li style="font-weight: 400"><a href="" style="color: #c8d6e5; transition: 0.3s">Dịch Vụ</a></li>
-                <li style="font-weight: 400"><a href="" style="color: #c8d6e5; transition: 0.3s">Bảng Giá</a></li>
-                <li style="font-weight: 400"><a href="" style="color: #c8d6e5; transition: 0.3s">Tin Tức</a></li>
-                <li style="font-weight: 400"><a href="" style="color: #c8d6e5; transition: 0.3s">Liên Hệ</a></li>
+            <ul class="text-center ndmenu text-uppercase" style="list-style-type: none">
+                <li style="font-weight: 500"><a href="/index.html" style=" transition: 0.3s; color: #10ac84!important">Trang Chủ</a></li>
+                <li style="font-weight: 400"><a href="#" style=" transition: 0.3s">Giới Thiệu</a></li>
+                <li style="font-weight: 400"><a href="#" style=" transition: 0.3s">Dịch Vụ</a></li>
+                <li style="font-weight: 400"><a href="#" style=" transition: 0.3s">Bảng Giá</a></li>
+                <li style="font-weight: 400"><a href="#" style=" transition: 0.3s">Tin Tức</a></li>
+                <li style="font-weight: 400"><a href="#" style=" transition: 0.3s">Liên Hệ</a></li>
             </ul>
+            <form class="form-inline my-1 my-lg-0 search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Tìm Kiếm" aria-label="Search">
+                <button class="btn btn-outline-success my-1 my-sm-0" type="submit"><i
+                        class="fas fa-search"></i></button>
+            </form>
         </div>
-        <div class="nutmenu">
-            <i class="fas fa-bars"></i>
-        </div>
-        <div class="logo_responsive">
-            <img src="/img/logo_ketoan.jpg" alt="" class="imgthumbnail" style="width: 95px;display: none">
+        <div class="nutmenu container-fluid">
+            <i class="fas fa-bars d-none p-3"></i>
+            <i class="fas fa-search d-none p-3"></i>
         </div>
     </div>
+    <img src="./img/logo_ketoanpsd2.png" alt="" width="200px" class="d-none logo_responsive">
+    <!--logo Responsive-->
     <!--End Menu-->
-    <section>
-        <div class="hero-banner">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active slide1">
-                        <img class="d-block w-100 img-thumbnail" src="./img/1.jpg" alt="First slide">
-                        <div class="text text-center m-auto ttheader carousel-caption">
-                            <h3 class="pb-5 font-italic" style="font-family: 'Anton', sans-serif;">Chào Mừng Đến Với
-                                TAAF!</h3>
-                            <h1 class="pb-5" style="font-family: 'Anton', sans-serif;">A beautiful and clean HTML
-                                template</h1>
-                            <a href="" class="btn mb-5" style=" color:white">See More</a>
-                        </div>
-                    </div>
-                    <div class="carousel-item slide2">
-                        <img class="d-block w-100 img-thumbnail" src="./img/2.jpg" alt="Second slide">
-                        <div class="text text-center m-auto ttheader carousel-caption">
-                            <h3 class="pb-5 font-italic" style="font-family: 'Anton', sans-serif;">Chúng Tôi Với Đội Ngũ
-                                Tâm Huyết Nhất!</h3>
-                            <h1 class="pb-5" style="font-family: 'Anton', sans-serif;">A beautiful and clean HTML
-                                template</h1>
-                            <a href="" class="btn mb-5" style=" color:white">See More</a>
-                        </div>
-                    </div>
-                    <div class="carousel-item slide3">
-                        <img class="d-block w-100 img-thumbnail" src="./img/3.jpg" alt="Third slide">
-                        <div class="text text-center m-auto ttheader carousel-caption">
-                            <h3 class="pb-5 font-italic" style="font-family: 'Anton', sans-serif;">Luôn Bên Bạn Đi Đến
-                                Thành Công!</h3>
-                            <h1 class="pb-5" style="font-family: 'Anton', sans-serif;">A beautiful and clean HTML
-                                template</h1>
-                            <a href="" class="btn mb-5" style="color:white">See More</a>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-        <!--Het Menu-->
-        <div class="gioithieu bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="tieude">
-                        <h3>About Us</h3>
-                    </div>
-                    <div class="text mb-4">
-                        Bacon ipsum dolor amet pancetta ball tip sausage, burgdoggen pork belly t-bone corned beef jowl
-                        andouille ham hock doner tail shank. Tongue strip steak tri-tip swine salami frankfurter.
-                        Brisket frankfurter flank, drumstick pork boudin ribeye andouille ham hock ball tip buffalo
-                        bresaola jerky. Doner spare ribs cupim andouille tri-tip strip steak. Ball tip bacon kielbasa,
-                        short ribs tenderloin meatball turkey jerky t-bone brisket frankfurter porchetta meatloaf. Chuck
-                        kevin pastrami ribeye. Beef rump hamburger ham bacon swine. <br>
-                        Salami leberkas turducken bacon, filet mignon pork belly capicola turkey picanha buffalo
-                        sirloin. Beef turkey hamburger porchetta bresaola. Doner alcatra beef ribs corned beef, spare
-                        ribs boudin prosciutto picanha beef leberkas jowl meatloaf drumstick bresaola. Ham swine
-                        capicola flank, turducken pork chop boudin filet mignon alcatra t-bone tail sausage. Swine ball
-                        tip strip steak pancetta cupim shoulder spare ribs frankfurter ham hock pork chop. Short loin
-                        bacon beef ribs meatloaf fatback chicken pork belly chuck ribeye t-bone leberkas cow corned beef
-                        buffalo.
-                    </div>
-                    <a href="" class="btn m-auto" style="margin-bottom: 40px!important">Tìm Hiểu Thêm</a>
-                </div>
-            </div>
-        </div>
-        <!--Het Gioi Thieu-->
-        <div class="quote">
-            <div class="container">
-                <div class="row">
-                    <div class="text">
-                        Salami leberkas turducken bacon, filet mignon pork belly capicola turkey picanha buffalo
-                        sirloin. Beef turkey hamburger porchetta bresaola. Doner alcatra beef ribs corned beef, spare
-                        ribs boudin prosciutto picanha beef leberkas jowl meatloaf drumstick bresaola. Ham swine
-                        capicola flank, turducken pork chop boudin filet mignon alcatra t-bone tail sausage. Swine ball
-                        tip strip steak pancetta cupim shoulder spare ribs frankfurter ham hock pork chop. Short loin
-                        bacon beef ribs meatloaf fatback chicken pork belly chuck ribeye t-bone leberkas cow corned beef
-                        buffalo.
-                        <br>
-                        -- Some Body --
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="dichvu">
-            <div class="_9" style="background-image: url('./img/odd_background.png'); background-size: cover">
-                <div class="container pt-5 pb-5">
-                    <div class="row">
-                        <div class="mb-5 m-auto tieude">
-                            <h3>Dịch Vụ</h3>
-                        </div>
-                    </div>
-                    <div class="row mt-5">
-                        <div class="col-md-4">
-                            <i class="fas fa-desktop mr-3"
-                                style="color: white; font-size: 35px; font-weight:bold; float: left"></i>
-                            <b style="color: white">THIẾT KẾ WEBSITE <br>
-                                Tương thích mọi thiết bị</b>
-                            <p style="color: white">Tối ưu hoá công cụ tìm kiếm - SEO. Tư vấn thiết kế dựa trên yêu cầu
-                                của khách hàng.</p>
-                        </div>
-                        <div class="col-md-4">
-                            <i class="fas fa-laptop-code mr-3"
-                                style="color: white; font-size: 35px; font-weight:bold; float: left"></i>
-                            <b style="color: white"> XÂY DỰNG ỨNG DỤNG WEBSITE <br>
-                                Ứng dụng được thiết kế theo yêu cầu</b>
-                            <p style="color: white">Thiết kế ứng dụng Website dựa trên ngôn ngữ lập trình PHP, và sử
-                                dụng nền tảng Laravel.
-                                Ứng dụng website bán hàng thương mại điện tử, và các ứng dụng có tính phức tạp cao.</p>
-                        </div>
-                        <div class="col-md-4">
-                            <i class="fas fa-mobile-alt mr-3"
-                                style="color: white; font-size: 35px; font-weight:bold; float: left"></i>
-                            <b style="color: white">LẬP TRÌNH ỨNG DỤNG DI ĐỘNG <br>
-                                Ứng dụng trên Android và iOS</b>
-                            <p style="color: white">Ứng dụng di động được lập trình trên nền tảng React Native. Sử dụng
-                                trên hệ điều hành Android và iOS.</p>
-                        </div>
-                        <div class="col-md-4">
-                            <i class="fas fa-bullseye mr-3"
-                                style="color: white; font-size: 35px; font-weight:bold; float: left"></i>
-                            <b style="color: white">MARKETING FACEBOOK<br>
-                                Tối ưu hoá dịch vụ quảng cáo trên Facebook</b>
-                            <p style="color: white"> Dịch vụ quảng cáo Facebook, tối ưu hoá quảng cáo, giúp khách hàng
-                                tiếp cận nhiều khách hàng hơn.</p>
-                        </div>
-                        <div class="col-md-4">
-                            <i class="fas fa-bullhorn mr-3"
-                                style="color: white; font-size: 35px; font-weight:bold; float: left"></i>
-                            <b style="color: white">GOOGLE ADS WORD <br>
-                                Quảng cáo Ads Word</b>
-                            <p style="color: white">Đưa trang website của khách hàng lên vị trí đầu của công cụ tìm kiếm
-                                Google.</p>
-                        </div>
-                        <div class="col-md-4">
-                            <i class="fas fa-sticky-note mr-3"
-                                style="color: white; font-size: 35px; font-weight:bold; float: left"></i>
-                            <b style="color: white">TƯ VẤN PHÁP LÝ <br>
-                                Tư vấn hoàn toàn miễn phí</b>
-                            <p style="color: white">Tư vấn khách hàng sử dụng website, đăng ký website với Bộ Công
-                                Thương. Bảo hộ thương hiệu và tư vấn pháp lý cho người khởi nghiệp.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="quytrinh">
-            <div class="bounus wow">
-                <div class="_13"
-                    style="background-image: url(./img/video_background.jpg); background-attachment: fixed;">
-                    <div class="container point">
-                        <h2 style="color: white" class="m-auto text-center p-5">XEM CÁCH CHÚNG <i
-                                class="fas fa-play-circle"></i> TÔI LÀM VIỆC</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="banggia">
-            <div class="_6">
-                <div class="container">
-                    <div class="row">
-                        <div class="m-auto">
-                            <div class="tieude">
-                                <h3>Bảng Giá</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-5">
-                        <div class="col-md-3">
-                            <div class="_1noidung mr-2 ml-2" style="border: 1px solid gray; width: 100%">
-                                <div class="tren bg-dark text-white text-center pt-2 pb-2">
-                                    DỊCH VỤ THIẾT KẾ WEBSITE
-                                </div>
-                                <div class="monney bg-light text-center pt-5 pb-5">
-                                    <div class="text-muted">Giá chỉ từ</div>
-                                    <b style="font-size: 30px">6.000.000</b><span class="pr-1 text-top">VNĐ</span><br>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-3"
-                                    style="border-bottom: 1px solid gray;font-size: 17px;">
-                                    <span class="font-weight-bold">Tối ưu </span> <span class="font-weight-light">công
-                                        cụ tìm kiếm</span>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-3"
-                                    style="border-bottom: 1px solid gray;font-size: 17px">
-                                    <span class="font-weight-bold">Tương thích </span> <span
-                                        class="font-weight-light">mọi thiết bị.</span>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-3"
-                                    style="border-bottom: 1px solid gray;font-size: 17px">
-                                    <span class="font-weight-bold">Tối ưu </span> <span class="font-weight-light">tốc
-                                        độ</span>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-5" style="font-size: 17px">
-                                    <span class="font-weight-light">Tư vấn </span><span class="font-weight-bold"> miễn
-                                        phí</span>
-                                </div>
-                                <div class="nut text-center">
-                                    <a href="" class="btn mb-3" style="font-size: 13px; border: 2px solid gray">TƯ
-                                        VẤN</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="_1noidung mr-2 ml-2" style="border: 1px solid gray; width: 100%">
-                                <div class="tren bg-dark text-white text-center pt-2 pb-2">
-                                    ỨNG DỤNG WEBSITE
-                                </div>
-                                <div class="monney bg-light text-center pt-5 pb-5">
-                                    <div class="text-muted">Giá chỉ từ</div>
-                                    <b style="font-size: 30px">15.000.000</b><span class="pr-1 text-top">VNĐ</span><br>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-3"
-                                    style="border-bottom: 1px solid gray;font-size: 17px;">
-                                    <span class="font-weight-bold">5 GB</span> <span class="font-weight-light">Disk
-                                        Space</span>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-3"
-                                    style="border-bottom: 1px solid gray;font-size: 17px">
-                                    <span class="font-weight-bold">10 GB</span> <span class="font-weight-light">Monthly
-                                        Bandwidth</span>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-3"
-                                    style="border-bottom: 1px solid gray;font-size: 17px">
-                                    <span class="font-weight-bold">10</span> <span class="font-weight-light">Email
-                                        Accounts</span>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-5" style="font-size: 17px">
-                                    <span class="font-weight-bold">Unlimited</span> <span
-                                        class="font-weight-light">subdomains</span>
-                                </div>
-                                <div class="nut text-center">
-                                    <a href="" class="btn mb-3" style="font-size: 13px; border: 2px solid gray">TƯ
-                                        VẤN</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="_1noidung mr-2 ml-2" style="border: 1px solid gray; width: 100%">
-                                <div class="tren bg-dark text-white text-center pt-2 pb-2">
-                                    ỨNG DỤNG DI ĐỘNG
-                                </div>
-                                <div class="monney bg-light text-center pt-5 pb-5">
-                                    <div class="text-muted">Giá dịch vụ</div>
-                                    <b style="font-size: 30px">LIÊN HỆ</b><br>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-3"
-                                    style="border-bottom: 1px solid gray;font-size: 17px;">
-                                    <span class="font-weight-light">Hệ điều hành</span> <span
-                                        class="font-weight-bold">Android/ iOS</span>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-3"
-                                    style="border-bottom: 1px solid gray;font-size: 17px">
-                                    <span class="font-weight-light">Thiết kế theo</span> <span
-                                        class="font-weight-bold">UI/UX</span>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-3"
-                                    style="border-bottom: 1px solid gray;font-size: 17px">
-                                    <span class="font-weight-light">Chức năng</span> <span class="font-weight-bold">theo
-                                        yêu cầu</span>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-5" style="font-size: 17px">
-                                    <span class="font-weight-light">Tải lên</span> <span
-                                        class="font-weight-bold">CH-Play/ App Store</span>
-                                </div>
-                                <div class="nut text-center">
-                                    <a href="" class="btn mb-3" style="font-size: 13px; border: 2px solid gray">TƯ
-                                        VẤN</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="_1noidung mr-2 ml-2" style="border: 1px solid gray; width: 100%">
-                                <div class="tren bg-dark text-white text-center pt-2 pb-2">
-                                    MARKETING ONLINE
-                                </div>
-                                <div class="monney bg-light text-center pt-5 pb-5">
-                                    <div class="text-muted">Giá dịch vụ</div>
-                                    <b style="font-size: 30px">LIÊN HỆ</b><br>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-3"
-                                    style="border-bottom: 1px solid gray;font-size: 17px;">
-                                    <span class="font-weight-light">Quảng cáo trên</span> <span
-                                        class="font-weight-bold">Google</span>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-3"
-                                    style="border-bottom: 1px solid gray;font-size: 17px">
-                                    <span class="font-weight-light">Lập báo cáo theo</span> <span
-                                        class="font-weight-bold">tuần/ tháng</span>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-3"
-                                    style="border-bottom: 1px solid gray;font-size: 17px">
-                                    <span class="font-weight-bold">Phân tích </span> <span
-                                        class="font-weight-light">theo ngành nghề</span>
-                                </div>
-                                <div class="cacnoidung text-center pt-3 pb-5" style="font-size: 17px">
-                                    <span class="font-weight-bold">Tối ưu hoá </span> <span
-                                        class="font-weight-light">chi phí</span>
-                                </div>
-                                <div class="nut text-center">
-                                    <a href="" class="btn mb-3" style="font-size: 13px; border: 2px solid gray">TƯ
-                                        VẤN</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="tintuc pt-5">
-            <div class="_14">
-                <div class="container">
-                    <div class="row m-auto">
-                        <div class="tieude">
-                            <h3>Bảng Tin</h3>
-                        </div>
-                    </div>
-                    <div class="row pt-3">
-                        <div class="col-md-4">
-                            <img src="./img/blog_1.jpg" alt="" class="img-thumbnail">
-                            <h6 style="color: #1dd1a1; font-size: 30px" class="pt-3 pb-3">Article 1</h6>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                                accusam
-                                et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-                                Lorem ipsum dolor sit amet...</p>
-                            <div class="ds mb-3" style="font-size: 13px">
-                                <span class="inline-block" style="color: #10ac84"><i class="fas fa-calendar-alt"></i>
-                                    Aug
-                                    17, 2016 - 6:53</span>
-                                <span class="inline-block" style="color: #10ac84"><i class="fas fa-user"></i>By John Doe
-                                </span>
-                                <span class="inline-block" style="color: #10ac84"><i class="fas fa-tag"></i> Duis, News
-                                </span>
-                                <span class="inline-block" style="color: #10ac84"><i class="fas fa-comments"></i> 12
-                                    Comments</span>
-                            </div>
-                            <a href="" class="btn" style="color: white; background: #10ac84; font-size: 13px">Read More
-                                ...</a>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="./img/blog_2.jpg" alt="" class="img-thumbnail">
-                            <h6 style="color: #1dd1a1; font-size: 30px" class="pt-3 pb-3">Article 2</h6>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                                accusam
-                                et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-                                Lorem ipsum dolor sit amet...</p>
-                            <div class="ds mb-3" style="font-size: 13px">
-                                <span class="inline-block" style="color: #10ac84"><i class="fas fa-calendar-alt"></i>
-                                    Aug
-                                    17, 2016 - 6:53</span>
-                                <span class="inline-block" style="color: #10ac84"><i class="fas fa-user"></i>By John Doe
-                                </span>
-                                <span class="inline-block" style="color: #10ac84"><i class="fas fa-tag"></i> Duis, News
-                                </span>
-                                <span class="inline-block" style="color: #10ac84"><i class="fas fa-comments"></i> 12
-                                    Comments</span>
-                            </div>
-                            <a href="" class="btn" style="color: white; background: #10ac84; font-size: 13px">Read More
-                                ...</a>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="./img/blog_3.jpg" alt="" class="img-thumbnail">
-                            <h6 style="color: #1dd1a1; font-size: 30px" class="pt-3 pb-3">Article 3</h6>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                                accusam
-                                et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-                                Lorem ipsum dolor sit amet...</p>
-                            <div class="ds mb-3" style="font-size: 13px">
-                                <span class="inline-block" style="color: #10ac84"><i class="fas fa-calendar-alt"></i>
-                                    Aug
-                                    17, 2016 - 6:53</span>
-                                <span class="inline-block" style="color: #10ac84"><i class="fas fa-user"></i>By John Doe
-                                </span>
-                                <span class="inline-block" style="color: #10ac84"><i class="fas fa-tag"></i> Duis, News
-                                </span>
-                                <span class="inline-block" style="color: #10ac84"><i class="fas fa-comments"></i> 12
-                                    Comments</span>
-                            </div>
-                            <a href="" class="btn" style="font-size: 15px">Read More
-                                ...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="lienhe pt-5">
-            <div class="_18">
-                <div class="container pt-3">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div id="googleMap" class="pb-5" style="height: 500px; width: 100%"></div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="tieude">
-                                    <h3>Liên Hệ</h3>
-                                </div>
-                                <div class="contactUs pt-3 pl-2 pb-5">
-                                    <p style="color: gray">Đừng ngần ngại mà hãy để lại thông tin và lời nhắn. Chúng tôi
-                                        sẽ
-                                        liên hệ và tư vấn cho bạn sớm nhất có thể</p>
-                                    <div class="form-group">
-                                        <input type="text" name="" id="user" class="form-control" placeholder="Name"
-                                            style="background-color: #eee">
+    <div class="_2 hero_banner">
+        <div class="container-fluid">
+            <div class="row">
+                    <div class="bd-example">
+                            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./img/1.jpg" class="d-block w-100" alt="..." style="height: 90vh">
+                                        <div class="carousel-caption d-md-block">
+                                            <h1 class="mb-4">Công Ty TNHH Dịch Vụ Tư Vấn Kế Toán TAAF</h1>
+                                            <h2 class="mb-4"><i class="fas fa-coffee"></i></h2>
+                                            <h3 class="mb-5">Chuyên Cung Cấp Dịch Vụ Tư Vấn Thuế, Tài Chính</h3>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <input type="text" name="" id="email" class="form-control" placeholder="Email"
-                                            style="background-color: #eee">
+                                    <div class="carousel-item">
+                                        <img src="./img/2.jpg" class="d-block w-100" alt="..." style="height: 90vh">
+                                        <div class="carousel-caption d-md-block">
+                                            <h1 class="mb-4">Sự Chính Xác </h1>
+                                            <h2 class="mb-4"><i class="fas fa-check-square"></i></h2>
+                                            <h3 class="mb-5">Mọi nghiệp vụ được xử lý chính xác</h3>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <textarea name="" rows="5" id="message" class="form-control"
-                                            placeholder="Message" style="background-color: #eee"></textarea>
+                                    <div class="carousel-item">
+                                        <img src="./img/3.jpg" class="d-block w-100" alt="..." style="height: 90vh">
+                                        <div class="carousel-caption d-md-block">
+                                            <h1 class="mb-4">Sự Tận Tâm Luôn Được Đặt Lên Hàng Đầu</h1>
+                                            <h2 class="mb-4"><i class="fas fa-heart"></i></h2>
+                                            <h3 class="mb-5">Thực hiện công việc với sự tận tụy nghề nghiệp</h3>
+                                        </div>
                                     </div>
-                                    <div class="item-center" style="margin-left: 50%">
-                                        <a href="" class="btn m-auto">GỬI<i class="fas fa-envelope pl-2"></i>
-                                        </a>
-                                    </div>
+                                    <div class="carousel-item">
+                                            <img src="./img/header-bg.jpg" class="d-block w-100" alt="..." style="height: 90vh">
+                                            <div class="carousel-caption d-md-block">
+                                                <h1 class="mb-4">Bảo mật mọi thông tin của quý khách hàng</h1>
+                                                <h2 class="mb-4"><i class="fas fa-lock"></i></h2>
+                                                <h3 class="mb-5">Chúng Tôi Hiểu Vấn Đề Bảo Mật Luôn Luôn Là Vấn Đề Mà Khách Hàng Quan Tâm</h3>
+                                            </div>
+                                        </div>
                                 </div>
+                                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+    <div class="_3 gioithieu">
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Phan Section-->
-    <footer>
-        <div class="footter bg-dark pt-5" style="color: #ff9f43">
-            <div class="container">
-                <div class="row pb-5">
-                    <div class="col-sm-6 trai">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <h5>About us</h5>
-                                <ul>
-                                    <li>Who we are</li>
-                                    <li>Press</li>
-                                    <li>Blog</li>
-                                    <li>Jobs</li>
-                                    <li>Contact us</li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-4">
-                                <h5>Product</h5>
-                                <ul>
-                                    <li>How it works</li>
-                                    <li>API</li>
-                                    <li>Download Apps</li>
-                                    <li>Pricing</li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-4">
-                                <h5>Support</h5>
-                                <ul>
-                                    <li>Help</li>
-                                    <li>Documentation</li>
-                                    <li>Terms of services</li>
-                                    <li>Privacy</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 phai">
-                        <ul class="list-inline-item">
-                            <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
-                            <li class="list-inline-item"><i class="fab fa-facebook-f"></i></li>
-                            <li class="list-inline-item"><i class="fab fa-google-plus-g"></i></li>
-                            <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
-                            <li class="list-inline-item"><i class="fas fa-wifi"></i></li>
-                        </ul>
-                        <p style="font-weight:600;">Stay up to date with the latest news and offers from Velocity</p>
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control bg-light" placeholder="Username" aria-label="Username"
-                                aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                                <a href="" class="btn btn-primary" style="color: black">Subscribe Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="row duoi">
-                    <div class="col-sm-6">
-                        <h5>Mobile apps</h5>
-                        <a href="" class="btn btn-outline-light mt-3 mb-3 text-left" style="color: black"><i
-                                class="fab fa-apple pr-3"></i>Download for IOS</a> <br>
-                        <a href="" class="btn btn-outline-light mt-3 mb-3 text-left" style="color: black"><i
-                                class="fab fa-android pr-3"></i>Download for Android</a> <br>
-                        <a href="" class="btn btn-outline-light mt-3 mb-3 text-left" style="color: black"><i
-                                class="fab fa-windows pr-3"></i>Windown coming soon...</a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h5>Contact Us</h5>
-                        <p><i class="fas fa-map-marker-alt pr-3"></i>College Green</p>
-                        <p>56 College Green Road</p>
-                        <p>BS1 XR18</p>
-                        <p class="pb-3">UK</p>
-                        <p><i class="fas fa-phone pr-3"></i>0800 123 4567</p>
-                        <p><i class="fas fa-envelope pr-3"></i>enquires@website.com</p>
-                        <a href="" class="btn btn-primary" style="color: black"><i class="fab fa-twitter pr-1"></i>Follow @3rdwave_themes</a>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row end pt-1 ">
-                        <div class="col-sm-12 text-center">
-                            <p>Template Copyright @ 3rd Wave Media</p>
-                            <p>Phù Tường Bảo</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--Phan Footer-->
-    <div class="nutlentren">
-        <a href="" class="btn" style="border-radius: 20px;">Back To Top</a>
     </div>
     <!-- JS CDN -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -576,10 +110,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <script src="/Javascript/map.js"></script>
     <script src="./Javascript/index.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ7bFVFgPwAMHGw9HqoS4BhBjw8-EV7Mo&callback=myMap">
-    </script>
+
 </body>
 
 </html>
