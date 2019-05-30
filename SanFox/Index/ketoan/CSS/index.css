@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border-bottom: 1px solid black;
 }
 
 .menu ul li {
@@ -29,7 +30,29 @@ body {
     padding-top: 10px;
 }
 
+.btn {
+    background: #10ac84;
+    color: white;
+    border-radius: 10%;
+}
 
+.btn:hover {
+    background: #1dd1a1!important;
+    color: wheat!important;
+}
+
+._6 {
+    background-image: url(/img/bg-testimonial.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+.xyz {
+    border: 1px solid black;
+    transition: 0.3s;
+}
+.xyz:hover {
+    border-bottom: 6px solid #10ac84;
+}
 
 @media only screen and (max-width: 600px){
     .nutmenu {
@@ -90,6 +113,10 @@ body {
     .carousel-caption h3 {
         font-size: 16px;
     }
+    .abcd {
+        padding-left: 100px;
+    }
+    
 }
 @media screen and (min-width: 600px) and (max-width: 992px){
     .nutmenu {
@@ -151,5 +178,8 @@ body {
     }
     .carousel-caption h3 {
         font-size: 20px;
+    }
+    .abcd {
+        padding-left: 100px;
     }
 }
