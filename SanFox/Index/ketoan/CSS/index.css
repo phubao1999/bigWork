@@ -1,22 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
-.menu ul li a{
-    color: black!important;
+
+.menu ul li a {
+    transition: 0.7s;
 }
-.menu ul li:hover a{
+
+.menu ul li a.chuDen {
+    color: black !important;
+}
+
+.menu .logo img.nhoLai {
+    width: 125px;
+}
+
+.menu .logo img {
+    transition: 0.7s;
+}
+
+.bg-lightaaa {
+    border-bottom: 1px solid black;
+    background: #efefef!important;
+}
+
+.menu ul li:hover a {
     text-decoration: none;
-    color: #c8d6e5!important;
+    color: #c8d6e5 !important;
 }
+
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-bottom: 1px solid black;
+    background: #ffffff36;
+    transition: 0.7s;
 }
 
 .menu ul li {
@@ -33,12 +55,12 @@ body {
 .btn {
     background: #10ac84;
     color: white;
-    border-radius: 10%;
+    border-radius: 8%;
 }
 
 .btn:hover {
-    background: #1dd1a1!important;
-    color: wheat!important;
+    background: #1dd1a1 !important;
+    color: wheat !important;
 }
 
 ._6 {
@@ -46,15 +68,57 @@ body {
     background-size: cover;
     height: 80vh;
 }
+
 .xyz {
     border: 1px solid black;
     transition: 0.3s;
 }
+
 .xyz:hover {
     border-bottom: 6px solid #10ac84;
 }
 
-@media only screen and (max-width: 600px){
+.bonnus.bg-light {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card.text-center {
+    margin: auto;
+    width: 100% !important;
+}
+
+.nutlentren {
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.nutlentren.backToTop {
+    opacity: 1;
+    visibility: visible;
+}
+
+.nutlienlac {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.nutlienlac i.fas.fa-phone-volume.pr-1{
+    animation: myMove 1s infinite;
+}
+
+@keyframes myMove {
+    from {transform: scale(1);}
+    to {transform: scale(1.3);}
+}
+
+@media only screen and (max-width: 600px) {
     .nutmenu {
         display: flex;
         justify-content: space-between;
@@ -65,15 +129,19 @@ body {
         top: 0;
         left: 0;
     }
+
     .search {
         display: none;
     }
+
     i.fas.fa-bars.d-none {
-        display: block!important;
+        display: block !important;
     }
+
     i.fas.fa-search.d-none {
-        display: block!important;
+        display: block !important;
     }
+
     .ndmenu {
         background: #10ac84;
         z-index: 9999;
@@ -82,43 +150,54 @@ body {
         transition: 0.5s;
         opacity: 0;
     }
+
     .ndmenu.rightMove {
         transform: translateX(0px);
         opacity: 1;
         height: 100vh;
     }
+
     .menu ul li a {
-        color: white!important;
+        color: white !important;
         line-height: 80px;
     }
-    .menu ul li:nth-child(1){
+
+    .menu ul li:nth-child(1) {
         padding-top: 70px;
     }
-    .menu{
+
+    .menu {
         display: block;
     }
+
     .logo {
         margin-top: 10vh;
         text-align: center;
     }
-    .menu .logo{
+
+    .menu .logo {
         display: none;
     }
+
     .carousel-caption h1 {
         font-size: 20px;
     }
+
     .carousel-caption h2 {
         font-size: 18px;
     }
+
     .carousel-caption h3 {
         font-size: 16px;
     }
+
     .abcd {
         padding-left: 100px;
     }
-    
+
 }
-@media screen and (min-width: 600px) and (max-width: 992px){
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
     .nutmenu {
         display: flex;
         justify-content: space-between;
@@ -129,17 +208,21 @@ body {
         top: 0;
         left: 0;
     }
+
     .search {
         display: none;
     }
+
     i.fas.fa-bars.d-none {
-        display: block!important;
+        display: block !important;
         font-size: 30px;
     }
+
     i.fas.fa-search.d-none {
-        display: block!important;
-        font-size: 30px;    
+        display: block !important;
+        font-size: 30px;
     }
+
     .ndmenu {
         background: #10ac84;
         z-index: 9999;
@@ -148,37 +231,47 @@ body {
         transition: 0.5s;
         opacity: 0;
     }
+
     .ndmenu.rightMove {
         transform: translateX(0px);
         opacity: 1;
         height: 100vh;
     }
+
     .menu ul li a {
-        color: white!important;
+        color: white !important;
         line-height: 80px;
     }
-    .menu ul li:nth-child(1){
+
+    .menu ul li:nth-child(1) {
         padding-top: 70px;
     }
-    .menu{
+
+    .menu {
         display: block;
     }
+
     .logo {
         margin-top: 10vh;
         text-align: center;
     }
-    .menu .logo{
+
+    .menu .logo {
         display: none;
     }
+
     .carousel-caption h1 {
         font-size: 24px;
     }
+
     .carousel-caption h2 {
         font-size: 22px;
     }
+
     .carousel-caption h3 {
         font-size: 20px;
     }
+
     .abcd {
         padding-left: 100px;
     }
