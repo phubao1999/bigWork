@@ -64,7 +64,7 @@ body {
 }
 
 ._6 {
-    background-image: url(/img/bg-testimonial.jpg);
+    background-image: url(../img/bg-testimonial.jpg);
     background-size: cover;
     height: 80vh;
 }
