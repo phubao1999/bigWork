@@ -194,7 +194,9 @@ body {
     .abcd {
         padding-left: 100px;
     }
-
+    .breadcrumb {
+        margin-top: 70px!important;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
@@ -274,5 +276,8 @@ body {
 
     .abcd {
         padding-left: 100px;
+    }
+    .breadcrumb {
+        margin-top: 100px!important;
     }
 }
