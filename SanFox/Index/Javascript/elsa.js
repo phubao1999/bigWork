@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    new WOW().init();
+});
+$(document).ready(function () {
     $(window).scroll(function () { 
         if($('html, body').scrollTop()>430){
             $('.menutren').addClass('abc');
