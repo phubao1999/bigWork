@@ -2,6 +2,11 @@ $(document).ready(function () {
     new WOW().init();
 });
 $(document).ready(function () {
+    $('.carousel').carousel({
+        interval: 3000
+    })
+});
+$(document).ready(function () {
     $(window).scroll(function () { 
         if($('html, body').scrollTop()>430){
             $('.menutren').addClass('abc');
