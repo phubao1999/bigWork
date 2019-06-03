@@ -18,6 +18,44 @@
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="../Css/animate.css">
     <link rel="stylesheet" href="../Css/elsa.css">
+    <style>
+        .DaAnChungToi img {
+            position: relative;
+            z-index: 2;
+        }
+
+        .bg-opa {
+            width: 100%;
+            height: 80%;
+            position: absolute;
+            z-index: 3;
+            top: 0;
+            left: 0;
+            background: #0000007d;
+            display: flex;
+            opacity: 0;
+            transition: 0.4s;
+        }
+
+        .bg-opa:hover {
+            opacity: 1;
+        }
+
+        .bg-opa a {
+            margin: auto;
+            text-align: center;
+            color: white;
+            border: 1px solid white;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .bg-opa a:hover {
+            text-decoration: none;
+            color: black;
+            background: white;
+        }
+    </style>
 </head>
 
 <body>
@@ -71,7 +109,43 @@
         </ol>
     </nav>
     <div class="DuAnChungToi">
-
+        <div class="container">
+            <div class="row pt-5 pb-5">
+                <div class="col-md-4">
+                    <img src="../img/portfolio_1.jpg" alt="" class="img-thumbnail mb-3">
+                    <div class="bg-opa text-center">
+                        <a href="" class="py-2 px-5">Xem Giao Diện</a>
+                    </div>
+                    <div class="text-center">
+                        <b class="mt-2">Web Bán Hàng</b>
+                        <br class="pt-2 pb-2">
+                        <a href="" style="color: #FF5800; border: white">Xem Thêm</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="../img/portfolio_2.jpg" alt="" class="img-thumbnail mb-3">
+                    <div class="bg-opa text-center">
+                        <a href="" class="py-2 px-5">Xem Giao Diện</a>
+                    </div>
+                    <div class="text-center">
+                        <b class="mt-2">Web Du lịch</b>
+                        <br class="pt-2 pb-2">
+                        <a href="" style="color: #FF5800">Xem Thêm</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="../img/portfolio_2.jpg" alt="" class="img-thumbnail mb-3">
+                    <div class="bg-opa text-center">
+                        <a href="" class="py-2 px-5">Xem Giao Diện</a>
+                    </div>
+                    <div class="text-center">
+                        <b class="mt-2">Web Tin Tức</b>
+                        <br class="pt-2 pb-2">
+                        <a href="" style="color: #FF5800">Xem Thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="footer wow fadeInRight">
         <div class="_19 pb-5 pt-5" style="background: #222222">
