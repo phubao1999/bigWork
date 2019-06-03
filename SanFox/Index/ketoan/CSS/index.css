@@ -165,8 +165,9 @@ body {
         line-height: 80px;
     }
 
-    .menu ul li:nth-child(1) {
+    .menu ul li:nth-child(1) a{
         padding-top: 70px;
+        display: inline-block!important;
     }
 
     .menu {
