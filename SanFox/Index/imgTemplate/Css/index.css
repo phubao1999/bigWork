@@ -56,11 +56,23 @@ body {
     color: #b2bec3;
 }
 
+.cacanh {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.cacanh ul li {
+    list-style-type: none;
+    float: left!important;
+    width: 33.33%;
+}
+
 .cacanh ul li img {
     transition: 0.3s;
-    position: relative;
     z-index: 2;
     overflow: hidden;
+    width: 100%!important;
 }
 
 .cacanh ul li img:hover {
@@ -68,6 +80,7 @@ body {
     transition: 0.3s;
     overflow: hidden;
     opacity: 0.8;    
+    z-index: 9999;
 }
 @media only screen and (max-width: 600px){
     ._1 .menu .trai li a{
