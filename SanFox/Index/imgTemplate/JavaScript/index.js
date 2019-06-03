@@ -5,3 +5,9 @@ $(document).ready(function () {
         $('.menuChild').toggleClass('hienra');
     });
 });
+
+$(document).ready(function () {
+    $('.cacanh').isotope({
+        itemSelector: 'li'
+    });
+});

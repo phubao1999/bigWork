@@ -56,26 +56,18 @@ body {
     color: #b2bec3;
 }
 
-.blur {
-    width: 100%;
-    height: auto;
-    background: black;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 3;
-}
-
 .cacanh ul li img {
     transition: 0.3s;
     position: relative;
     z-index: 2;
+    overflow: hidden;
 }
 
 .cacanh ul li img:hover {
     transform: scale(1.1);
     transition: 0.3s;
     overflow: hidden;
+    opacity: 0.8;    
 }
 @media only screen and (max-width: 600px){
     ._1 .menu .trai li a{
