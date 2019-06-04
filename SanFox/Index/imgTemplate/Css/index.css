@@ -60,6 +60,7 @@ body {
 .cacanh {
     width: 90%;
     margin: auto;
+    overflow: hidden;
     margin-top: 100px;
 }
 
@@ -67,6 +68,7 @@ body {
     list-style-type: none;
     float: left!important;
     width: 33.33%;
+    overflow: hidden;
 }
 
 .cacanh ul li img {
