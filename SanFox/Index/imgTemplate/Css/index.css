@@ -82,6 +82,49 @@ body {
     opacity: 0.8;    
     z-index: 9999;
 }
+
+i.fas.fa-long-arrow-alt-up {
+    padding: 10px;
+    background: #ffffffb8;
+    color: black;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+i.fas.fa-long-arrow-alt-up.hienra {
+    opacity: 1;
+    visibility: visible;
+}
+
+.book .col-md-4:hover img {
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.book .col-md-4:hover .effect {
+    transform: translateY(-200px);
+    transition: 0.4s;
+}
+
+.book .col-md-4:hover .hover {
+    opacity: 1;
+    display: block;
+    transition-delay: 0.2s;
+    transform: translateY(0px);
+}
+
+.hover {
+    opacity: 0;
+    display: none;
+    transition-delay: 0.2s;
+    transform: translateY(200px);
+}
+
 @media only screen and (max-width: 600px){
     ._1 .menu .trai li a{
         padding: 20px;
