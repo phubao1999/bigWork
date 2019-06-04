@@ -30,3 +30,7 @@ $(document).ready(function () {
         }
     });
 });
+// Image Galery Effect
+$(document).ready(function () {
+
+});
