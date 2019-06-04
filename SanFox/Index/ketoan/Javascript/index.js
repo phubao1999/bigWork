@@ -22,3 +22,43 @@ $(document).ready(function () {
         $('html, body').animate({'scrollTop': 0}, 1000);
     });
 });
+
+// Animate Scroll Function Here
+$(document).ready(function () {
+    $('.menu ul li:nth-child(1) a').click(function (e) { 
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000);
+    });
+    $('.menu ul li:nth-child(2) a').click(function (e) { 
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('.gioithieu').offset().top - 60
+        }, 1000);
+    });
+    $('.menu ul li:nth-child(3) a').click(function (e) { 
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('._5').offset().top - 60
+        }, 1000);
+    });
+    $('.menu ul li:nth-child(4) a').click(function (e) { 
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('._7').offset().top - 60
+        }, 1000);
+    });
+    $('.menu ul li:nth-child(5) a').click(function (e) { 
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('._8').offset().top - 60
+        }, 1000);
+    });
+    $('.menu ul li:nth-child(6) a').click(function (e) { 
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('._9').offset().top - 60
+        }, 1000);
+    });
+});
