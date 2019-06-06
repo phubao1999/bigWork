@@ -3,6 +3,99 @@
     padding: 0;
 }
 
+footer.w-100.bg-dark.text-white.m-auto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnn {
+    width: 40px;
+    height: 30px;
+    background: gray;
+    margin: 5px;
+    border: 1px solid;
+    transition: 0.2s;
+}
+
+.btnn:hover {
+    background: white;
+    color: black
+}
+
+._1baiviet {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted;
+    line-height: 40px;
+}
+
+.qc2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qc3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qc4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cacvideonho.bg-dark {
+    overflow: scroll;
+    height: 340px;
+}
+
+.cacvideonho::-webkit-scrollbar {
+    width: 10px;
+}
+
+.cacvideonho::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.cacvideonho::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+.cacvideonho::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.right {
+    color: white;
+    font-weight: 600;
+}
+
+.video-caption {
+    background: #7fcb2b;
+}
+
+i.fas.fa-play {
+    font-size: 30px;
+    color: white;
+}
+
+.video-caption {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: black;
+}
+
+.content {
+    max-width: 2048px;
+}
+
 .menuResponsive {
     display: none;
 }
@@ -30,6 +123,10 @@
     padding: 20px 17px;
 }
 
+.menu2 ul li p {
+    font-weight: bold;
+}
+
 .menu3 ul li {
     display: inline-block;
     padding: 20px 14px;
@@ -38,6 +135,16 @@
 .hover:hover{
     color: #00b894!important;
     text-decoration: none;
+    transition: 0.2s;
+}
+
+.tinto {
+    background-image: url(../img/pc-8.jpg);
+    max-width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
 }
 
 .tinnho .row .col-md-6 img{
@@ -45,9 +152,28 @@
     width: 100%;
 }
 
+.raw {
+    background: #7fcb2b;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 @media screen and (max-width: 600px){
     ._2.menu {
         display: none;
+    }
+
+    .qc2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    video {
+        width: 100%;
     }
 
     .content {
@@ -67,7 +193,7 @@
         width: 100%;
         transform: scale(1);
         transition: 0.5s;
-        z-index: 9999;
+        z-index: 1;
     }
     .menuResponsive.effect3 {
         transform: scale(0.9);
@@ -126,6 +252,17 @@
     ._2.menu {
         display: none;
     }
+
+    video {
+        width: 100%;
+    }
+    
+    .qc2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .menuResponsive {
         display: flex;
         justify-content: space-between!important;
