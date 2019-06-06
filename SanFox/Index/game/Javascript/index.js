@@ -18,5 +18,18 @@ $(document).ready(function () {
         $('.menuResponsive').removeClass('effect3');
         $('.content').removeClass('effect4');
    }); 
-   
+});
+
+$(document).ready(function () {
+    $(window).scroll(function(){
+        if($('html, body').scrollTop()>430){
+            $('.backtotop').addClass('hienra');
+        }else if($('html, body').scrollTop()<=130){
+            $('.backtotop').removeClass('hienra');
+        }
+    })
+    $('.backtotop').click(function (e) { 
+        e.preventDefault();
+        $('html, body').animate({ scrollTop:0 },1000);
+    });
 });
