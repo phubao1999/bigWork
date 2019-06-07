@@ -52,6 +52,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.menutren.fixed-top {
     transition: 0.5s;
 }
 
+._1noidung {
+    transition: 0.5s;
+}
+
 .point .fas:hover {
     color: #C84600;
 }
