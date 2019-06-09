@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* main color: #DFAD86 */
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+i {
+    color: #DFAD86;
+}
+
+ul li {
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.menutren {
+    display: flex;
+    justify-content: space-around;
+}
+
+#drop ul {
+    display: none;
+    transition: 0.2s;
+}
+
+#drop ul.down {
+    display: block!important;
+}
+
+.iconmenutren.pt-2 {
+    display: flex;
+}
+
+.forMobile{
+    display: none;
+}
+
+.dropdown{
+    display: none;
+}
+
+.forDesktop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forDesktop .trai ul li{
+    display: inline-block;
+}
+
+.forDesktop .phai ul li{
+    display: inline-block;
+}
+.hero-header {
+    background-image: url(../img/home_bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-position: bottom;
+}
+
+.index{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #00000030;
+}
+
+.content-header{
+    position: relative;
+    z-index: 3;
+}
+
+.btn{
+    padding: 10px 15px;
+    border: 1px solid #DFAD86;
+    transition: 0.3s;
+    border-radius: 0px;
+}
+.btn:hover{
+    border: none;
+    background: #DFAD86;
+    color: gray!important;
+}
+
+.backToTop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+}
+.backToTop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .ttmenutren {
+        display: none;
+    }
+    .forMobile {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+    }
+
+    .dropdown {
+        line-height: 30px;
+        background: wheat;
+        display: none;
+        transform: translateY(-999px);
+        transition: 0.5s;
+    }
+    .dropdown.showUp{
+        display: block!important;
+        transform: translateY(0px);
+        transition: 0.5s;
+    }
+    .dropdown ul li {
+        cursor: pointer;
+    }
+    .forDesktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px){
+    
+}
