@@ -195,12 +195,81 @@ ul li {
     transition-delay: 0.2s;
 }
 
+._4 {
+    background-image: url(../img/testimonials_bg.png);
+}
 
+._6 {
+    background-image: url(../img/testimonials_bg.png);
+}
 
+.event-caption {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-caption{
+    transition: 0.4s;
+}
+
+.main-caption:hover {
+    box-shadow: 0px 0px 20px 20px #0000006b;
+}
+
+.info {
+    box-shadow: 5px 5px 20px 8px;
+    transition: 0.5s;
+}
+
+.info:hover {
+    transform: scale(1.2);
+}
+
+.input {
+    box-shadow: 5px 5px 20px 8px;
+    transition: 0.5s;
+}
+
+.input:hover {
+    transform: scale(1.2);
+}
+
+.s1 {
+    display: flex;
+}
+
+.mid ul li{
+    display: inline-block;
+}
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: white;
+    line-height: 35px;
+    transition: 0.3s;
+}
+
+footer ul li a:hover{
+    color: #DFAD86!important;
+    text-decoration: none;
+}
+
+.mid ul li a i{
+    color: white;
+}
+
+.mid ul li a i:hover {
+    color: #DFAD86;
+}
 
 @media only screen and (max-width: 600px){
     .forSmallDevice {
         display: block;
+        background: white;
+        box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.2);
     }
     .ttmenutren {
         display: none;
@@ -232,5 +301,37 @@ ul li {
 }
 
 @media screen and (min-width: 600px) and (max-width: 992px){
-    
+    .forSmallDevice {
+        display: block;
+        background: white;
+        box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.2);
+    }
+    .ttmenutren {
+        display: none;
+    }
+    .forMobile {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+    }
+
+    .dropdown {
+        line-height: 30px;
+        background: wheat;
+        display: none;
+        transform: translateY(-999px);
+        transition: 0.5s;
+    }
+    .dropdown.showUp{
+        display: block!important;
+        transform: translateY(0px);
+        transition: 0.5s;
+    }
+    .dropdown ul li {
+        cursor: pointer;
+    }
+    .forDesktop{
+        display: none;
+    }
+}
 }
