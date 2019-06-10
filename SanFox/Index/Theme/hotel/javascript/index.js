@@ -19,4 +19,12 @@ $(document).ready(function () {
        e.preventDefault();
        $('html, body').animate({scrollTop:0}, 1000);
    });
+
+   $(window).scroll(function(){
+       if($('html, body').scrollTop() > $('.menu').offset().top){
+            $('.forDesktop').addClass('fixed-top');
+       } else if ($('html, body').scrollTop() < $('.menu').offset().top){
+             $('.forDesktop').removeClass('fixed-top');
+   }
+   })
 });
