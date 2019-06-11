@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    color: #754C2A;
+}
+
+._1.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    background: #754C2A;
+    font-weight: 700;
+}
+
+._3 {
+    background: #754C2A;
+    color: white;
+}
+
+._3 .menulv1 li {
+    display: inline-block;
+    padding-right: 15px; 
+}
+
+._3 .menulv1 li a {
+    color: #EEEE21;
+}
+
+.s2 i {
+    color: #DCD4CC;
+}
+
+._4 {
+    background: #754c2ab3;
+    transition: 0.4s;
+    display: none;
+    opacity: 0;
+    transform: translateY(-999px);
+    z-index: -9999;
+}
+
+._4.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+    display: block;
+}
+
+.danhMuc:hover {
+    background: rgb(136, 136, 49);
+    color: white;
+}
+
+.menulv2 li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.menulv2 li a {
+    color: white;
+}
+
+.menuSmall {
+    display: none;
+}
+
+.menuDesktop {
+    display: block;
+}
+
+.menuRespon {
+    display: none;
+}
+.packAge {
+    display: none;
+}
+
+.nutClose {
+    display: none;
+}
+
+.tticon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuDesktop {
+    display: flex;
+    justify-content: space-around
+}
+
+._1tticon i{
+    padding: 10px;
+    border-radius: 50%;
+    background: white;
+    color: #754C2A;
+    font-size: 25px;
+}
+
+._1tticon{
+    color: white;
+}
+
+.danhMuc {
+    background: #EEEE21;
+    color: #754C2A;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn {
+    padding: 7px 17px;
+    background: #754C2A;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #EEEE21;
+    color: #754C2A;
+}
+
+.item {
+    transition: 0.4s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+._8 .item {
+    border: 1px solid;
+    box-shadow: 5px 0px 15px 5px;
+}
+
+.nutBackTop {
+    display: none;
+}
+
+.nutBackTop.move {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+h2.text-center {
+    color: #754C2A;
+}
+
+._11 {
+    background-image: url('../img/hinh-nen.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer i{
+    color: #EEEE21;
+}
+
+@media only screen and (max-width:600px){
+    ._1 {
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .menuDesktop {
+        display: none;
+    }
+
+    .menuSmall {
+        display: block;
+    }
+
+    .small {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logoSmall img{
+        width: 150px;
+    }
+    .menuRespon {
+        display: none;
+        background: #754C2A;
+        transform: translateX(-999px);
+        transition: 0.4s;
+        height: 100vh;
+    }
+
+    .menuRespon.dirabentrai {
+        display: block;
+        transform: translateX(0px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+
+    .menuRespon ul li a {
+        color: white;
+        line-height: 80px;
+        font-size: 22px;
+    }
+
+    .menuRespon ul li:hover a{
+        text-decoration: none;
+    }
+
+    .nutClose {
+        display: none;
+    }
+
+    .nutClose.showUp {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 9999;
+    }
+    .nutClose.showup {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+
+    .packAge {
+        display: none;
+        background: #754C2A;
+        transform: translateX(999px);
+        transition: 0.4s;
+        height: 100vh;
+        color: white;
+        width: 50%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 9999;
+    }
+    .packAge.dirabenphai {
+        display: block;
+        transform: translateX(0px);
+    }
+
+    ._3 {
+        display: none;
+    }
+    ._4 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px){
+    ._1 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .menuDesktop {
+        display: none;
+    }
+
+    .menuSmall {
+        display: block;
+    }
+
+    .logoSmall img{
+        width: 180px;
+    }
+
+    .small {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menuRespon {
+        display: none;
+        background: #754C2A;
+        transform: translateX(-999px);
+        transition: 0.4s;
+        height: 100vh;
+    }
+
+    .menuRespon.dirabentrai {
+        display: block;
+        transform: translateX(0px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+
+    .menuRespon ul li a {
+        color: white;
+        line-height: 80px;
+        font-size: 22px;
+    }
+
+    .menuRespon ul li:hover a{
+        text-decoration: none;
+    }
+
+    .nutClose {
+        display: none;
+    }
+
+    .nutClose.showUp {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 9999;
+    }
+    .nutClose.showup {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+
+    .packAge {
+        display: none;
+        background: #754C2A;
+        transform: translateX(999px);
+        transition: 0.4s;
+        height: 100vh;
+        color: white;
+        width: 50%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 9999;
+    }
+    .packAge.dirabenphai {
+        display: block;
+        transform: translateX(0px);
+    }
+
+    ._3 {
+        display: none;
+    }
+
+    ._4 {
+        display: none;
+    }
+}
